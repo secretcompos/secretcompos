@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://usepeg.trade/assets/brand/peg-token.png" width="100" alt="Peg" />
+<img src="https://raw.githubusercontent.com/use-peg/.github/main/assets/peg-black.png" width="130" alt="Peg logo on black" />
 
 # Peg Dev
 
@@ -8,25 +8,31 @@
 
 Solidity · TypeScript · Next.js · ethers · Three.js
 
-[**Explore Peg ↗**](https://usepeg.trade/app) · [PegPad](https://usepeg.trade/app?tab=pegpad&screen=open) · [@use_peg](https://x.com/use_peg)
+[**Peg ↗**](https://github.com/use-peg) · [**Solidity contracts**](https://github.com/use-peg/peg-contracts) · [Launch app](https://usepeg.trade/app) · [@use_peg](https://x.com/use_peg)
 
 </div>
 
 ---
 
-### Shipping at Peg
+## Shipping at Peg
 
-- **Stock-token markets:** backed wrappers, USDG liquidity pairs, and wallet-native trading.
-- **Community Pools:** token-address discovery, pool creation, deposits, and withdrawals.
-- **PEG Staking:** principal custody with an external reward module kept separate.
-- **PegPad:** stock-paired launches through Pons, with creator fees routed to creators, Peg liquidity, and PEG buyback & burn.
-- **A physical interface:** a monitor-led studio built with Three.js and spring-based motion.
+- **Stock-token markets:** backed wrappers, USDG liquidity pairs and wallet-native trading.
+- **Community Pools:** token discovery, pool creation, deposits and withdrawals.
+- **PEG Staking:** exact principal custody with rewards kept separate.
+- **PegPad:** stock-paired launches through Pons; creator fees for the creator, Peg liquidity and PEG buyback & burn.
+- **The studio:** a physical, monitor-led interface built with Three.js and spring motion.
 
-### Engineering priorities
+## Read the code
 
-Exact transaction intent. Fresh simulations. Durable recovery. Receipts before success states. Clear boundaries between observed performance and projections.
+[**use-peg/peg-contracts**](https://github.com/use-peg/peg-contracts) — three Solidity primitives, pinned builds and 30 staking tests.
 
-I work across smart contracts, wallet flows, backend integrations, and the product experience that makes them usable.
+```solidity
+mapping(address => uint256) public stakedBalance;
+```
+
+One balance per depositor. Explicit transaction intent. Fresh simulations. Durable recovery. Receipts before success states.
+
+I work across smart contracts, wallet flows, backend integrations and the product experience that makes them usable.
 
 ---
 
