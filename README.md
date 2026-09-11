@@ -24,7 +24,7 @@ Solidity · TypeScript · Next.js · ethers · Three.js
 
 ## Read the code
 
-[**use-peg/peg-contracts**](https://github.com/use-peg/peg-contracts) — three Solidity primitives, pinned builds and 30 staking tests.
+[**use-peg/peg-contracts**](https://github.com/use-peg/peg-contracts) — five Solidity primitives, pinned builds and 30 staking tests.
 
 ```solidity
 mapping(address => uint256) public stakedBalance;
